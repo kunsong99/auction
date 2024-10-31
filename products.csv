@@ -1,0 +1,11 @@
+id,seller_id,name,category_id,quantity,unit,country_of_origin,description,created_date,created_time
+1,14,Atlantic Salmon,6,100,kg,Norway,"Fresh, wild-caught Atlantic salmon",2024-09-01,08:15:23
+2,23,Organic Tomatoes,2,500,kg,Sweden,"Pesticide-free, locally grown tomatoes",2024-09-11,13:45:56
+3,16,Ribeye Steak,5,200,kg,Argentina,Premium grass-fed ribeye beef steaks,2024-09-13,17:32:12
+4,14,Lobsters,6,50,kg,Canada,Live lobsters from the Atlantic Ocean,2024-09-16,09:08:44
+5,23,Free-range Eggs,3,1000,pcs,Sweden,Fresh free-range eggs from local farms,2024-09-28,14:55:30
+6,22,Bluefin Tuna,6,80,kg,Japan,Freshly caught bluefin tuna,2024-10-05,19:20:11
+7,11,Organic Carrots,2,300,kg,Sweden,Locally grown organic carrots,2024-10-09,06:35:59
+8,14,Wagyu Beef,5,50,kg,Japan,Premium A5-grade Wagyu beef,2024-10-11,11:25:07
+9,51,Shrimp,3,60,kg,Thailand,"Fresh shrimp, peeled and deveined.",2024-10-06,13:23:56
+10,66,Local Honey,5,40,kg,Sweden,"Pure local honey, harvested from local beekeepers.",2024-10-05,10:58:41

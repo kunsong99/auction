@@ -1,0 +1,11 @@
+id;username;psw_hs;first_name;last_name;email;mobile
+1;JamesB;5f4dcc3b5aa765d61d8327deb882cf99;James;Brown;JamesBrown@freshcatch.com;+46 70 123 4567
+2;MiaT;6f1ed002ab5595859014ebf0951522d9;Mia;Taylor;MiaTaylor@freshcatch.com;+46 73 234 5678
+3;NoahA;a6c4b20f4f3b8f69d3a3ab3bafae85c5;Noah;Anderson;NoahAnderson@freshcatch.com;+46 75 345 6789
+4;AvaT;b94d27b9934d51d8e29d8b10b5b563b6;Ava;Thomas;AvaThomas@freshcatch.com;+46 76 456 7890
+5;EthanJ;2c6ee24b09816a6f14f95d1698b24ead;Ethan;Jackson;EthanJackson@freshcatch.com;+46 72 567 8901
+6;SophiaW;3d4e8e45a2d6ed2a1428df19c5f2f4ab;Sophia;White;SophiaWhite@freshcatch.com;+46 70 678 9012
+7;MasonH;5d41402abc4b2a76b9719d911017c592;Mason;Harris;MasonHarris@freshcatch.com;+46 73 789 0123
+8;IsabellaM;b3b5060c4e372f4e205d1674f39c530f;Isabella;Martin;IsabellaMartin@freshcatch.com;+46 75 890 1234
+9;LucasT;9b74c9897bac770c8c26a2b45b557c734;Lucas;Thompson;LucasThompson@freshcatch.com;+46 76 901 2345
+10;CharlotteG;ef92b778bafe771e2f8c32d04d9fdf3e;Charlotte;Garcia;CharlotteGarcia@freshcatch.com;+46 72 012 3456

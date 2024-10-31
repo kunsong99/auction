@@ -1,0 +1,38 @@
+DROP TABLE IF EXISTS users;
+
+DROP TABLE IF EXISTS user_names;
+
+DROP TABLE IF EXISTS contacts;
+
+DROP TABLE IF EXISTS emails;
+
+DROP TABLE IF EXISTS mobiles;
+
+DROP TABLE IF EXISTS companies;
+
+DROP TABLE IF EXISTS user_x_company;
+
+DROP TABLE IF EXISTS addresses;
+
+DROP TABLE IF EXISTS user_x_address;
+
+DROP TABLE IF EXISTS categories;
+
+DROP TABLE IF EXISTS document_types;
+
+DROP TABLE IF EXISTS products;
+
+DROP TABLE IF EXISTS product_x_document;
+
+DROP VIEW IF EXISTS auction_list;
+DROP TABLE IF EXISTS auctions;
+
+DROP TABLE IF EXISTS bids;
+
+DROP TABLE IF EXISTS feedbacks;
+
+DROP TABLE IF EXISTS conversations;
+
+DROP TABLE IF EXISTS messages;
+
+
