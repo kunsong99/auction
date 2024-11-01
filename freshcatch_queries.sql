@@ -274,51 +274,61 @@ FROM ratings;
 --Det genomsnittliga betyget som alla säljare får är 4.42, som alla köpare får är 4.56
 
 
+
+
+
+
+
+
 --as an admin, I can sign up a new account
-INSERT INTO admins values (11,'AliciaG','%^&*F3@Jkl74','Alicia','Green','Alicia.Green@freshcatch.com','+46809616794');
+INSERT INTO admins values (11,'AliciaG','%^&*F3@Jkl74',
+                           'Alicia','Green',
+                           'Alicia.Green@freshcatch.com','+46809616794');
+
 SELECT *
 FROM admins
-WHERE   first_name = 'Alicia';
+WHERE  first_name = 'Alicia';
+
+
+DELETE
+FROM admins
+WHERE  first_name = 'Alicia';
+
+
+
+
 
 
 --as an user, I can update my product information
 UPDATE products
 SET quantity = 100
 WHERE seller_id = 51 and name = 'Shrimp';
+
 SELECT *
 FROM products
 WHERE seller_id = 51 and name = 'Shrimp';
 
 
--- as an user, I can delete my address info
-WITH sub AS
-(SELECT address_id FROM user_x_address
-WHERE  user_id = 93)
+
+-- as a user, I can delete my address info
+SELECT *
+FROM user_x_address
+WHERE user_id = 93;
+---86,93,86
+
 SELECT *
 FROM addresses
-WHERE id = sub.address_id;
+WHERE id = 86;
+---86,toarp 33,Lund,22100
 
 
-
-SELECT *
-FROM addresses, user_x_address
-WHERE user_x_address.user_id = 93 AND user_x_address.address_id = addresses.id;
+DELETE FROM user_x_address
+WHERE user_id = 93;
 
 DELETE FROM addresses
-JOIN user_x_address ON user_x_address.address_id = addresses.id
-WHERE user_x_address.user_id = 93;
+WHERE id NOT IN (SELECT address_id FROM user_x_address);
 
 
 
-
-
-WITH sub AS
-(SELECT *
-FROM user_x_address
-WHERE  user_id = 93)
-DELETE FROM addresses
-WHERE id = sub.address_id;
-
-
-
-
+INSERT INTO addresses VALUES (86,'toarp 33','Lund','22100');
+INSERT INTO user_x_address  VALUES (86,93,86);
